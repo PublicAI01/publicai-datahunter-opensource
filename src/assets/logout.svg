@@ -1,0 +1,21 @@
+<svg viewBox="0 0 24 24" fill="none">
+<defs>
+  <clipPath id="clip">
+    <rect width="24" height="24" fill="currentColor"/>
+  </clipPath>
+</defs>
+  <g clip-path="url(#clip)">
+    <path d="M18.8587 6.85449V10.282H14.2837V12.5695H18.8587V15.997H19.9987V14.857H21.1462V13.717H22.2862V12.5695H23.4262V10.282H22.2862V9.14199H21.1462V8.00199H19.9987V6.85449H18.8587Z" fill="currentColor"/>
+    <path d="M16.5712 15.998H15.4312V20.573H16.5712V15.998Z" fill="currentColor"/>
+    <path d="M16.5712 1.13965H15.4312V6.85465H16.5712V1.13965Z" fill="currentColor"/>
+    <path d="M10.8563 22.8598V21.7123H15.4313V20.5723H10.8563V5.71484H9.71631V22.8598H10.8563Z" fill="currentColor"/>
+    <path d="M9.71607 22.8604H6.28857V24.0004H9.71607V22.8604Z" fill="currentColor"/>
+    <path d="M8.56871 12.5703H7.42871V14.8578H8.56871V12.5703Z" fill="currentColor"/>
+    <path d="M9.71621 4.57422H7.42871V5.71422H9.71621V4.57422Z" fill="currentColor"/>
+    <path d="M6.28848 21.7129H4.00098V22.8604H6.28848V21.7129Z" fill="currentColor"/>
+    <path d="M7.42861 3.42773H5.14111V4.57523H7.42861V3.42773Z" fill="currentColor"/>
+    <path d="M4.00137 20.5723H1.71387V21.7123H4.00137V20.5723Z" fill="currentColor"/>
+    <path d="M5.14133 2.28711H2.86133V3.42711H5.14133V2.28711Z" fill="currentColor"/>
+    <path d="M1.71373 0V1.14H0.57373V20.5725H1.71373V2.2875H2.86123V1.14H15.4312V0H1.71373Z" fill="currentColor"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 24 24" fill="none">
+  <defs>
+    <clipPath id="clip">
+      <rect width="100%" height="100%" fill="currentColor"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <path d="M20.2126 0.75H3.0376V1.8975H20.2126V0.75Z" fill="currentColor"/>
+    <path d="M3.03746 22.4697H1.89746V23.6097H3.03746V22.4697Z" fill="currentColor"/>
+    <path d="M3.03746 1.89746H1.89746V3.03746H3.03746V1.89746Z" fill="currentColor"/>
+    <path d="M21.2025 1.89746H20.0625V3.03746H21.2025V1.89746Z" fill="currentColor"/>
+    <path d="M1.8975 3.03711H0.75V22.4696H1.8975V3.03711Z" fill="currentColor"/>
+    <path d="M23.2489 6.24121H22.3813V21.0291H23.2489V6.24121Z" fill="currentColor" stroke="currentColor" stroke-width="0.340086"/>
+    <path d="M22.383 21.0283H21.5098V21.8958H22.383V21.0283Z" fill="currentColor" stroke="currentColor" stroke-width="0.340086"/>
+    <path d="M22.383 5.37305H21.5098V6.24057H22.383V5.37305Z" fill="currentColor" stroke="currentColor" stroke-width="0.340086"/>
+    <path d="M21.5087 21.8965H6.72656V22.764H21.5087V21.8965Z" fill="currentColor" stroke="currentColor" stroke-width="0.340086"/>
+    <path d="M21.5087 4.5H6.72656V5.37323H21.5087V4.5Z" fill="currentColor" stroke="currentColor" stroke-width="0.340086"/>
+    <path d="M6.72788 21.0283H5.86035V21.8958H6.72788V21.0283Z" fill="currentColor" stroke="currentColor" stroke-width="0.340086"/>
+    <path d="M6.72788 5.37305H5.86035V6.24057H6.72788V5.37305Z" fill="currentColor" stroke="currentColor" stroke-width="0.340086"/>
+    <path d="M5.85956 6.24121H4.98633V21.0291H5.85956V6.24121Z" fill="currentColor" stroke="currentColor" stroke-width="0.340086"/>
+  </g>
+</svg>

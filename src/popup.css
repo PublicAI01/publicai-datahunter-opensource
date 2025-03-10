@@ -1,0 +1,124 @@
+@import 'tailwindcss' source('../src');
+
+@utility app-shadow {
+  @apply border border-purple-500;
+  --tw-shadow: var(--spacing-app-shadow-size) var(--spacing-app-shadow-size) 0 0
+    var(--tw-shadow-color, var(--color-purple-400));
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow),
+    var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+}
+
+@theme {
+  --color-purple-50: #f3f2ff;
+  --color-purple-100: #e9e8ff;
+  --color-purple-200: #d5d4ff;
+  --color-purple-300: #b7b1ff;
+  --color-purple-350: #b7b1ff;
+  --color-purple-400: #9385ff;
+  --color-purple-500: #7b61ff;
+  --color-purple-600: #5d30f7;
+  --color-purple-700: #4f1ee3;
+  --color-purple-720: #5d30f7;
+  --color-purple-750: #4731af33;
+  --color-purple-800: #4218bf;
+  --color-purple-900: #37169c;
+  --color-purple-950: #200b6a;
+
+  --color-blue-50: #ecf6ff;
+  --color-blue-100: #ddeeff;
+  --color-blue-200: #c2dfff;
+  --color-blue-300: #9cc8ff;
+  --color-blue-400: #75a6ff;
+  --color-blue-500: #6590ff;
+  --color-blue-600: #365cf5;
+  --color-blue-700: #2a4ad8;
+  --color-blue-800: #2540ae;
+  --color-blue-900: #263d89;
+  --color-blue-950: #162150;
+
+  --color-black-20: #00000033;
+  --color-black-30: #0000004d;
+  --color-black-50: #00000080;
+  --color-black-75: #000000bf;
+  --color-black-100: #000000;
+
+  --color-white-5: #ffffff0d;
+  --color-white-10: #ffffff1a;
+  --color-white-75: #ffffffcc;
+  --color-white-80: #ffffffcc;
+  --color-white-100: #fff;
+
+  --color-bg-bg: rgba(123, 97, 255, 0.3);
+
+  --color-gold-50: #fefaec;
+  --color-gold-100: #faf1cb;
+  --color-gold-200: #e4991c;
+  --color-gold-300: #f0cf65;
+  --color-gold-400: #ebb734;
+  --color-gold-500: #e4991c;
+  --color-gold-400-bg: #ebb7341a;
+
+  --color-gold-text: #ebb734;
+  --color-gold-bg: #e4991c26;
+
+  --font-bai-jamjuree: 'Bai Jamjuree';
+  --font-pixel: 'Handjet';
+  --font-poppins: 'Poppins';
+
+  --spacing-app-shadow-size: 0.125rem;
+
+  --animate-shimmer-slide: shimmer-slide 3s ease-in-out infinite alternate;
+  @keyframes shimmer-slide {
+    to {
+      transform: translate(calc(100cqw - 100%));
+    }
+  }
+
+  --animate-spin-around: spin-around 6s infinite linear;
+  @keyframes spin-around {
+    0% {
+      transform: translateZ(0) rotate(0);
+    }
+
+    15%,
+    35% {
+      transform: translateZ(0) rotate(90deg);
+    }
+
+    65%,
+    85% {
+      transform: translateZ(0) rotate(270deg);
+    }
+
+    to {
+      transform: translateZ(0) rotate(1turn);
+    }
+  }
+}
+
+body {
+  position: relative;
+}
+
+html,
+body,
+#popup {
+  width: 360px;
+  height: 600px;
+  padding: 0;
+  margin: 0;
+  font-family:
+    'Bai Jamjuree',
+    -apple-system,
+    blinkmacsystemfont,
+    'Helvetica Neue',
+    helvetica,
+    segoe ui,
+    arial,
+    roboto,
+    'PingFang SC',
+    'miui',
+    'Hiragino Sans GB',
+    'Microsoft Yahei',
+    sans-serif;
+}

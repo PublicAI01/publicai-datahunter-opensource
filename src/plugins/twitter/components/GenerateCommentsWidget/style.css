@@ -1,0 +1,176 @@
+.container {
+  position: relative;
+}
+
+button {
+  --r: 144;
+  --g: 126;
+  --b: 255;
+  cursor: pointer;
+  padding: 0 16px;
+  height: 36px;
+  outline: none;
+  border: none;
+  border-radius: 999px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+  background: linear-gradient(
+      225deg,
+      #0000 33%,
+      rgba(255, 255, 255, 0.3) 50%,
+      #0000 66%
+    )
+    rgb(var(--r), var(--g), var(--b));
+  background-size: 300% 100%;
+  animation: pulse 3s ease-out infinite;
+}
+
+button div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+button .logo {
+  width: auto;
+  height: 15px;
+  color: #fff;
+}
+
+button span {
+  font-family:
+    TwitterChirp,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
+button.loading {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+button.error {
+  --r: 255;
+  --g: 82;
+  --b: 87;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  --r: 15;
+  --g: 20;
+  --b: 25;
+  animation: none;
+  opacity: 0.5;
+}
+
+button.error span,
+button[disabled] span {
+  font-size: 10px;
+}
+
+button .retry {
+  width: 14px;
+  color: #fff;
+}
+
+.container .loading-box {
+  --width: 8px;
+  --color: #fff;
+  --color-light: #0002;
+}
+
+.no-account-tips {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  padding: 16px 18px;
+  margin-bottom: 4px;
+  width: max-content;
+  border-radius: 8px;
+  border: 1px solid #907eff;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-account-tips .close {
+  cursor: pointer;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  border-radius: 50%;
+  padding: 2px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #7a7a7a80;
+}
+
+.no-account-tips .close svg {
+  width: 9px;
+  height: auto;
+  color: #fff;
+}
+
+.no-account-tips p {
+  margin: 0 0 20px 0;
+  color: #907eff;
+}
+
+.no-account-tips button {
+  --r: 88;
+  --g: 62;
+  --b: 255;
+  padding: 6px 10px;
+  height: auto;
+}
+
+.container[data-color-scheme='dark'] .no-account-tips {
+  background: #1c1c1c;
+}
+
+.container[data-color-scheme='dark'] .no-account-tips p {
+  color: #fff;
+}
+
+.container[data-color-scheme='dark'] button[disabled] {
+  --r: 239;
+  --g: 243;
+  --b: 244;
+}
+
+.container[data-color-scheme='dark'] button[disabled] .logo,
+.container[data-color-scheme='dark'] button[disabled] span {
+  color: rgb(15, 20, 25);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(var(--r), var(--g), var(--b), 1);
+    background-position: right;
+  }
+
+  50% {
+    box-shadow: 0 0 0 4px rgba(var(--r), var(--g), var(--b), 0.5);
+  }
+
+  to {
+    box-shadow: 0 0 0 0 rgba(var(--r), var(--g), var(--b), 1);
+  }
+}

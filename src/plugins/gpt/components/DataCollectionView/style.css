@@ -1,0 +1,60 @@
+.container {
+  --background: #fff;
+  --color: #333;
+}
+
+.container[data-color-scheme='dark'] {
+  --background: #171717;
+  --color: #fff;
+}
+
+.container {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 12px 28px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--background);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 12px 12px 12px 12px;
+}
+
+button:not([disabled]) {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color);
+  line-height: 24px;
+}
+
+svg.icon {
+  color: var(--color);
+}
+
+img.coin {
+  margin-left: 16px;
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+svg.loading {
+  animation: spin 1s linear infinite;
+}

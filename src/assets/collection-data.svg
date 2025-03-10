@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="插件" transform="translate(-172, -188)">
+            <g id="add2" transform="translate(172, 188)">
+                <circle id="椭圆形" fill="#0155FF" opacity="0.157628" cx="40" cy="40" r="40"></circle>
+                <circle id="椭圆形备份" fill="#0155FF" cx="40" cy="40" r="29.0909091"></circle>
+                <g id="对号" transform="translate(27.6795, 27.225)" fill="#FFFFFF">
+                    <rect id="矩形" x="0" y="10" width="25" height="5" rx="2.5"></rect>
+                    <rect id="矩形备份-2" transform="translate(12.5, 12.5) rotate(-270) translate(-12.5, -12.5)" x="0" y="10" width="25" height="5" rx="2.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
